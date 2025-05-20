@@ -36,7 +36,7 @@ const {user} = useUser()
           <div className='flex items-center gap-1 sm:gap-2 max-sm:text-xs'>
               { user &&
                   <>
-              <buttton onClick={()=> {navigate('/educator')}}>{isEducator ? 'Educator Dashboard' : 'Become Educator'}</buttton>
+              <button onClick={()=> {navigate('/educator')}}>{isEducator ? 'Educator Dashboard' : 'Become Educator'}</button>
               <Link to ='/my-enrollments'>My Enrollments </Link>
               </>
             }
